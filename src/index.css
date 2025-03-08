@@ -1,0 +1,103 @@
+:root {
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+
+	color-scheme: dark;
+	color: rgba(255, 255, 255, 0.87);
+	background-color: #242424;
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
+}
+
+body {
+	margin: 0;
+	display: flex;
+	place-items: center;
+	min-width: 320px;
+	min-height: 100vh;
+}
+
+h1 {
+	font-size: 3.2em;
+	line-height: 1.1;
+}
+
+#boxButton{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+button{
+  margin-left: 5px;
+	width: 100%;
+  text-align: center;
+	border: 1px solid transparent;
+  border-radius: 5px;
+	padding: 5px;
+	font-size: 1em;
+	text-align: left;
+	font-family: inherit;
+	background-color: #6e6e6e;
+	cursor: pointer;
+  transition: 300ms;
+}
+button:hover {
+  color: white;
+  background-color: black;
+}
+
+#boxTasks {
+	padding: 5px;
+	text-align: left;
+	background-color: aliceblue;
+	border-radius: 10px;
+	color: black;
+}
+#boxtasks,
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  padding:5px ;
+	border-style: none;
+	font-size: 20px;
+	list-style: none;
+}
+
+.line{
+	text-decoration: line-through;
+}
+
+#boxAdd{
+	display: flex;
+	flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  padding:5px ;
+	border-style: none;
+	font-size: 20px;
+}
+#boxAdd input{
+	font-size: 1.3em;
+	padding: 5px;
+	margin-top: 5px;
+	border-radius: 5px;
+	border-style: none;
+	width: 95%;
+}
