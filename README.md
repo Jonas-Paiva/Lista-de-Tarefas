@@ -1,2 +1,2 @@
-# Lista-de-Tarefas
+# Lista de Tarefas
 Curso de React - Felipe Rocha
